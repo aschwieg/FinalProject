@@ -1,22 +1,22 @@
+<?php
+include('config.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Alex's Homepage</title>
+<title>Shell Company | Home</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="style.css">
 </head> 
 <body>
-<header>
-	<h1>The Final Project</h1>
-</header>
-<nav>
-	<a href="">Link</a> <a href="">Link</a> <a href="">Link</a> <a href="">Link</a>
-</nav>
+<?php include('header.php'); ?>
 <main>
-	<h2>Main</h2>
+	<br>
+	<br><br><br>
+	<img src="images/indexImage.png" width= "400px" height="200px" id="indexImage">
+	<br>
+	<p id="indexMain">Welcome to your Off-Shore Banking Human Resources Portal. You can click on 'Schedule' to add a leave of abscence for Human Resources to approve. 
+	Or, you can click on 'Send a Message' to send an anonymous message to Human Resources. To log out, simply click on the right link right below your name!</p>
 </main>
-<footer>
-	<h2>Footer</h2>
-</footer>
 </body>
 </html>
